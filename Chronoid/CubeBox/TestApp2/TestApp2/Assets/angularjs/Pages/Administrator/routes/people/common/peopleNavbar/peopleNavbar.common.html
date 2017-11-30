@@ -1,0 +1,9 @@
+<div style="background-color:#ecedef; width:150px; height:100%; position:fixed; top:105px; left:0px; text-align:center">
+    <div class="row">
+        <div class="col-lg-12" ng-repeat="item in items">
+            <a ng-click="item.event(item.value)" style="cursor:pointer">
+                <i ng-class="item.icon"></i>
+            </a>
+        </div>
+    </div>
+</div>

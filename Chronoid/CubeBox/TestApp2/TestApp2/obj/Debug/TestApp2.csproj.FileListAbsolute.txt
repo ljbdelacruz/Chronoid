@@ -1,0 +1,658 @@
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\ApplicationInsights.config
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\csc.exe
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\vbc.exe
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\TestApp2.dll.config
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\TestApp2.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\TestApp2.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Antlr3.Runtime.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\EntityFramework.SqlServer.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.Web.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Newtonsoft.Json.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Owin.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Net.Http.Formatting.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Helpers.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Http.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Http.WebHost.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Mvc.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Optimization.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Razor.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.WebPages.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\WebActivatorEx.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\WebGrease.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.Web.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Net.Http.Formatting.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Http.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Http.WebHost.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Helpers.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Mvc.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Optimization.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.Razor.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.WebPages.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Antlr3.Runtime.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Newtonsoft.Json.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\EntityFramework.SqlServer.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\obj\Debug\TestApp2.csprojResolveAssemblyReference.cache
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\obj\Debug\TestApp2.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\obj\Debug\TestApp2.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\indexcare.repository.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\indexcare.service.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\indexcare.repository.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\TestApp2\bin\indexcare.service.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\ApplicationInsights.config
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\csc.exe
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\vbc.exe
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\TestApp2.dll.config
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\TestApp2.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\TestApp2.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Antlr3.Runtime.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\App.Data.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\EntityFramework.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\EntityFramework.SqlServer.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\GeneralClass.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\main.repository.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.Web.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Newtonsoft.Json.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Owin.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Service.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Net.Http.Formatting.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Helpers.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Http.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Http.WebHost.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Mvc.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Optimization.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Razor.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.WebPages.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\WebActivatorEx.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\WebGrease.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\GeneralClass.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\App.Data.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\main.repository.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Service.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.Web.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Net.Http.Formatting.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Http.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Http.WebHost.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Helpers.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Mvc.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Optimization.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.Razor.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.WebPages.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Antlr3.Runtime.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Newtonsoft.Json.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\EntityFramework.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\EntityFramework.SqlServer.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\obj\Debug\TestApp2.csprojResolveAssemblyReference.cache
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\obj\Debug\TestApp2.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\TestApp2\obj\Debug\TestApp2.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.csprojResolveAssemblyReference.cache
+C:\Analog\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\ApplicationInsights.config
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\csc.exe
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\vbc.exe
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll.config
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\TestApp2.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\App.Data.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\EntityFramework.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\GeneralClass.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\main.repository.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Owin.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Service.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\WebActivatorEx.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\WebGrease.dll
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\GeneralClass.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\App.Data.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\main.repository.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Service.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.pdb
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\EntityFramework.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Analog\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\ApplicationInsights.config
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\csc.exe
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\vbc.exe
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll.config
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\App.Data.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\GeneralClass.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\main.repository.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Owin.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Service.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\WebActivatorEx.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\WebGrease.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\GeneralClass.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\App.Data.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\main.repository.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Service.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.csprojResolveAssemblyReference.cache
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\ApplicationInsights.config
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\csc.exe
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\vbc.exe
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll.config
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\App.Data.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\GeneralClass.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\main.repository.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Owin.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Service.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\WebActivatorEx.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\WebGrease.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\GeneralClass.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\App.Data.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\main.repository.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Service.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.pdb
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.csprojResolveAssemblyReference.cache
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.dll
+C:\Analog\CubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\ApplicationInsights.config
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\csc.exe
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Collections.Immutable.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\vbc.exe
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\roslyn\VBCSCompiler.exe.config
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll.config
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\TestApp2.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\App.Data.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\GeneralClass.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\main.repository.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Web.Infrastructure.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Owin.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Service.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\WebActivatorEx.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\WebGrease.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\GeneralClass.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\App.Data.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\main.repository.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Service.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.DependencyCollector.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.Web.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AI.WindowsServer.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.ApplicationInsights.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Practices.Unity.WebApi.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Net.Http.Formatting.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Http.WebHost.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Helpers.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Mvc.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Optimization.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.Razor.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Deployment.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\System.Web.WebPages.Razor.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Antlr3.Runtime.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Newtonsoft.Json.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\EntityFramework.SqlServer.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Google.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.csprojResolveAssemblyReference.cache
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\TestApp2\obj\Debug\TestApp2.pdb

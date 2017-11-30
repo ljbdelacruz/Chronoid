@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42D50F13-B0E7-40AE-8B28-AA502BBC5C1C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestApp2</RootNamespace>
+    <AssemblyName>TestApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Mvc.4.0.1\lib\net45\Microsoft.Practices.Unity.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.4.0.1\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.WebApi, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.AspNet.WebApi.4.0.1\lib\net45\Microsoft.Practices.Unity.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Helper\UserManager.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="App_Start\UnityMvcActivator.cs" />
+    <Compile Include="App_Start\UnityWebApiActivator.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Assets\angularjs\components\3rdParty\CircularProgressBar1\angular-round-progress-directive.js" />
+    <Content Include="Assets\angularjs\components\Container\BorderContainer1\BorderContainer1.html" />
+    <Content Include="Assets\angularjs\components\Container\BorderContainer1\BorderContainer1.js" />
+    <Content Include="Assets\angularjs\components\Container\CardContainer3\CardContainer3.html" />
+    <Content Include="Assets\angularjs\components\Container\CardContainer3\CardContainer3.js" />
+    <Content Include="Assets\angularjs\components\Container\CardContainer2\CardContainer2.html" />
+    <Content Include="Assets\angularjs\components\Container\CardContainer2\CardContainer2.js" />
+    <Content Include="Assets\angularjs\components\DataTables\Table1\readme.txt" />
+    <Content Include="Assets\angularjs\components\DataTables\Table1\Table1.html" />
+    <Content Include="Assets\angularjs\components\DataTables\Table1\Table1.js" />
+    <Content Include="Assets\angularjs\components\Modals\Modal3\Modal3.html" />
+    <Content Include="Assets\angularjs\components\Modals\Modal3\Modal3.js" />
+    <Content Include="Assets\angularjs\components\Modals\Modal3\style.css" />
+    <Content Include="Assets\angularjs\components\Modals\Modal1\Modal1.html" />
+    <Content Include="Assets\angularjs\components\Modals\Modal1\Modal1.js" />
+    <Content Include="Assets\angularjs\components\Modals\Modal1\style.css" />
+    <Content Include="Assets\angularjs\components\Modals\Modal2\Modal2.html" />
+    <Content Include="Assets\angularjs\components\Modals\Modal2\Modal2.js" />
+    <Content Include="Assets\angularjs\components\Modals\Modal2\style.css" />
+    <Content Include="Assets\angularjs\components\Modals\Modal4\Modal4.html" />
+    <Content Include="Assets\angularjs\components\Modals\Modal4\Modal4.js" />
+    <Content Include="Assets\angularjs\components\Modals\Modal4\style.css" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown1\dropDown1.html" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown1\dropDown1.nav.js" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown1\readme.txt" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown3\dropDown3.html" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown3\dropDown3.nav.js" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown3\readme.txt" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown2\dropDown2.html" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown2\dropDown2.nav.js" />
+    <Content Include="Assets\angularjs\components\Navigation\Dropdown2\readme.txt" />
+    <Content Include="Assets\angularjs\components\UserInputs\Button1\Button1.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\Button1\Button1.js" />
+    <Content Include="Assets\angularjs\components\UserInputs\Button1\readme.txt" />
+    <Content Include="Assets\angularjs\components\UserInputs\Button2\Button2.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\Button2\Button2.js" />
+    <Content Include="Assets\angularjs\components\UserInputs\Checkbox1\Checkbox1.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\Checkbox1\Checkbox1.js" />
+    <Content Include="Assets\angularjs\components\UserInputs\Selection1\readme.txt" />
+    <Content Include="Assets\angularjs\components\UserInputs\Selection1\Selection1.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\Selection1\Selection1.js" />
+    <Content Include="Assets\angularjs\components\UserInputs\Switch1\Switch1.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\Switch1\Switch1.js" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox4\readme.txt" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox4\style.css" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox4\Textbox4.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox4\Textbox4.js" />
+    <Content Include="Assets\angularjs\components\UserInputs\TimePicker1\TimePicker1.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\TimePicker1\TimePicker1.js" />
+    <Content Include="Assets\angularjs\components\Widgets\Badge\Badge.html" />
+    <Content Include="Assets\angularjs\components\Widgets\Badge\Badge.js" />
+    <Content Include="Assets\angularjs\components\Widgets\BurningIcon\BurningIcon.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\BurningIcon\BurningIcon.widget.js" />
+    <Content Include="Assets\angularjs\components\Widgets\ImageUploader\ImageUploader.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\ImageUploader\ImageUploader.widget.js" />
+    <Content Include="Assets\angularjs\components\Widgets\Clock1\Clock1.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\Clock1\Clock1.widget.js" />
+    <Content Include="Assets\angularjs\components\Widgets\NavbarTieBox\navBarTieBox.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\NavbarTieBox\navbarTieBox.widet.js" />
+    <Content Include="Assets\angularjs\components\Widgets\loader1\loader1.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\loader1\loader1.widget.js" />
+    <Content Include="Assets\angularjs\components\Widgets\Preloader1\loadingScreen.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\Preloader1\loadingScreen.widget.js" />
+    <Content Include="Assets\angularjs\components\Widgets\Preloader1\style.css" />
+    <Content Include="Assets\angularjs\components\Widgets\Timer1\Timer1.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\Timer1\Timer1.widget.js" />
+    <Content Include="Assets\angularjs\components\3rdParty\webcam\webcam.js" />
+    <Content Include="Assets\angularjs\components\Widgets\WebcamWidget1\webcam1.widget.html" />
+    <Content Include="Assets\angularjs\components\Widgets\WebcamWidget1\webcam1.widget.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\app.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\appCtrl.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\users\users.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\users\UsersCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\users\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\common\peopleNavbar\peopleNavbar.common.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\common\peopleNavbar\peopleNavbar.common.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\EditUsers\EditUsers.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\EditUsers\EditUsersCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\EditUsers\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Holiday\Holiday.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Holiday\HolidayCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Holiday\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Report\Report.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Report\ReportCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Report\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\routes\AddShift\AddShift.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\routes\AddShift\AddShiftCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\routes\AddShift\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\routes\GroupSchedule\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\routes\GroupSchedule\GroupSchedule.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\routes\GroupSchedule\GroupScheduleCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\Schedule.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\ScheduleCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\Schedule\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\AddUsers\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\AddUsers\AddUsers.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\routes\AddUsers\AddUsersCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\publicView\PublicView.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\publicView\PublicViewCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\publicView\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\Employee.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\EmployeeCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\people\employee\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\main\Main.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\main\MainCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\main\module.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\Settings\routes\Breaks\Break.page.html" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\Settings\routes\Breaks\BreakCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Administrator\routes\Settings\routes\Breaks\module.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\app.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\appCtrl.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\common\navbar\navbar.common.html" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\common\navbar\navbar.common.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\users\users.page.html" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\users\usersCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\users\module.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\company\company.page.html" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\company\companyCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\company\module.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\main\Main.page.html" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\main\MainCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Admin\routes\main\module.js" />
+    <Content Include="Assets\angularjs\Pages\Employee\app.js" />
+    <Content Include="Assets\angularjs\Pages\Employee\appCtrl.js" />
+    <Content Include="Assets\angularjs\Pages\Employee\routes\Profile\Profile.page.html" />
+    <Content Include="Assets\angularjs\Pages\Employee\routes\Profile\ProfileCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Employee\routes\Profile\module.js" />
+    <Content Include="Assets\angularjs\Pages\Employee\routes\main\module.js" />
+    <Content Include="Assets\angularjs\Pages\Employee\routes\main\Main.page.html" />
+    <Content Include="Assets\angularjs\Pages\Employee\routes\main\MainCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Timeclock\app.js" />
+    <Content Include="Assets\angularjs\Pages\Timeclock\appCtrl.js" />
+    <Content Include="Assets\angularjs\Pages\Timeclock\routes\main\Main.page.html" />
+    <Content Include="Assets\angularjs\Pages\Timeclock\routes\main\MainCtrl.page.js" />
+    <Content Include="Assets\angularjs\Pages\Timeclock\routes\main\module.js" />
+    <Content Include="Assets\angularjs\res\angularjs-route1.2.25.js" />
+    <Content Include="Assets\angularjs\res\angularjs1.2.25.js" />
+    <Content Include="Assets\angularjs\Services\ajax\windowReload.js" />
+    <Content Include="Assets\angularjs\Services\alerts\alertService.alerts.js" />
+    <Content Include="Assets\angularjs\Services\controllers\dbLoginControllerService.js" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AddOnController.cs" />
+    <Compile Include="Controllers\AdministratorController.cs" />
+    <Compile Include="Controllers\ApplicationController.cs" />
+    <Compile Include="Controllers\AttendanceController.cs" />
+    <Compile Include="Controllers\AttendanceStatusController.cs" />
+    <Compile Include="Controllers\BreakTypeController.cs" />
+    <Compile Include="Controllers\CompanyController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
+    <Compile Include="Controllers\HolidayController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JobTitleController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\LogoutController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ShiftController.cs" />
+    <Compile Include="Controllers\SuperAdminController.cs" />
+    <Compile Include="Controllers\TimeClockController.cs" />
+    <Compile Include="Controllers\TimeZoneController.cs" />
+    <Compile Include="Controllers\UserBreakTimeController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Controllers\UtilityController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AddOnViewModel.cs" />
+    <Compile Include="Models\AspNetUserViewModel.cs" />
+    <Compile Include="Models\AspNetUserVM.cs" />
+    <Compile Include="Models\AttendanceStatusViewModel.cs" />
+    <Compile Include="Models\AttendanceViewModel.cs" />
+    <Compile Include="Models\BreakTypeViewModel.cs" />
+    <Compile Include="Models\CompanyViewModel.cs" />
+    <Compile Include="Models\DayVM.cs" />
+    <Compile Include="Models\DepartmentViewModel.cs" />
+    <Compile Include="Models\GroupScheduleVM.cs" />
+    <Compile Include="Models\HolidayViewModel.cs" />
+    <Compile Include="Models\HolidayVM.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\JobStatusViewModel.cs" />
+    <Compile Include="Models\JobtitleViewModel.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\ResponseBreak.cs" />
+    <Compile Include="Models\RouteViewModel.cs" />
+    <Compile Include="Models\ScheduleViewModel.cs" />
+    <Compile Include="Models\ShiftViewModel.cs" />
+    <Compile Include="Models\UserAttendanceVM.cs" />
+    <Compile Include="Models\UserBreakTimeVM.cs" />
+    <Compile Include="Models\UserInformationViewModel.cs" />
+    <Compile Include="Models\UsersViewModel.cs" />
+    <Compile Include="Models\Utilities\AddOnUtility.cs" />
+    <Compile Include="Models\Utilities\APISecurity.cs" />
+    <Compile Include="Models\Utilities\AspNetUserUtility.cs" />
+    <Compile Include="Models\Utilities\AttendanceStatusUtility.cs" />
+    <Compile Include="Models\Utilities\AttendanceTaggerUtility.cs" />
+    <Compile Include="Models\Utilities\AttendanceUtility.cs" />
+    <Compile Include="Models\Utilities\AspNetUserRoleUtility.cs" />
+    <Compile Include="Models\Utilities\BreakTypeUtility.cs" />
+    <Compile Include="Models\Utilities\CompanyUtility.cs" />
+    <Compile Include="Models\Utilities\DayUtility.cs" />
+    <Compile Include="Models\Utilities\DepartmentUtility.cs" />
+    <Compile Include="Models\Utilities\FileManagerUtility.cs" />
+    <Compile Include="Models\Utilities\FileUploadUtility.cs" />
+    <Compile Include="Models\Utilities\HolidayUtility.cs" />
+    <Compile Include="Models\Utilities\JobStatusUtility.cs" />
+    <Compile Include="Models\Utilities\JobTitleUtility.cs" />
+    <Compile Include="Models\Utilities\LoginControllerUtility.cs" />
+    <Compile Include="Models\Utilities\MessageUtility.cs" />
+    <Compile Include="Models\Utilities\ShiftUtility.cs" />
+    <Compile Include="Models\Utilities\SystemLogUtility.cs" />
+    <Compile Include="Models\Utilities\UserBreakModelUtility.cs" />
+    <Compile Include="Models\Utilities\UsersUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\angularjs\components\Container\CardContainer1\CardContainer1.html" />
+    <Content Include="Assets\angularjs\components\Container\CardContainer1\CardContainer1.js" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox3\readme.txt" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox3\style.css" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox3\Textbox3.html" />
+    <Content Include="Assets\angularjs\components\UserInputs\Textbox3\Textbox3.js" />
+    <Content Include="Assets\angularjs\Pages\Login\app.js" />
+    <Content Include="Assets\angularjs\Pages\Login\appCtrl.js" />
+    <Content Include="Assets\angularjs\Services\ajax\PostData.js" />
+    <Content Include="Assets\angularjs\Services\ajax\Request.js" />
+    <Content Include="Assets\angularjs\Services\data\globalAddOn.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalAttendanceStatus.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalBreakType.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalChoices.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalCompany.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalDepartment.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalEmployeeNavigation.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalHoliday.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalJobTitle.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalRoute.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalShift.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalTimeZone.data.js" />
+    <Content Include="Assets\angularjs\Services\data\globalUsers.data.js" />
+    <Content Include="Assets\angularjs\Services\data\LoadData.data.js" />
+    <Content Include="Assets\angularjs\Services\objects\AlertVM.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\AspNetUserViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\BreakButtonVM.objects.js" />
+    <Content Include="Assets\angularjs\Services\objects\buttonViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\CompanyViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\IconNavigationViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\JobStatusViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\JobTitleViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\ModalAlertObject.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\selection1ViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\TimeInsObject.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\TimeViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\UserBreakInfo.object.js" />
+    <Content Include="Assets\angularjs\Services\objects\UserViewModel.object.js" />
+    <Content Include="Assets\angularjs\Services\requests\addOnService.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\alertUtility.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\attendanceStatus.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\breakTypeService.js" />
+    <Content Include="Assets\angularjs\Services\requests\company.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\departmentService.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\holiday.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\jobTitleService.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\scheduleService.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\shiftService.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\userAttendance.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\userBreak.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\usersInfoRequest.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\usersService.service.js" />
+    <Content Include="Assets\angularjs\Services\requests\utilityRequest.service.js" />
+    <Content Include="Assets\angularjs\Services\utility\timeout.service.js" />
+    <Content Include="Assets\angularjs\Services\utility\toBlob.service.js" />
+    <Content Include="Assets\bootstrap\materialize\css\custom-style.css" />
+    <Content Include="Assets\bootstrap\materialize\css\materialize.css" />
+    <Content Include="Assets\bootstrap\materialize\css\media-hover-effects.css" />
+    <Content Include="Assets\bootstrap\materialize\css\page-center.css" />
+    <Content Include="Assets\bootstrap\materialize\css\prism.css" />
+    <Content Include="Assets\bootstrap\materialize\css\style.css" />
+    <Content Include="Assets\bootstrap\materialize\font\material-design-icons\Material-Design-Icons.svg" />
+    <Content Include="Assets\bootstrap\materialize\images\amazon.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\avatar.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\favicon\apple-touch-icon-152x152.png" />
+    <Content Include="Assets\bootstrap\materialize\images\favicon\favicon-32x32.png" />
+    <Content Include="Assets\bootstrap\materialize\images\favicon\mstile-144x144.png" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\1.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\10.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\11.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\12.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\13.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\14.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\15.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\16.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\17.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\18.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\19.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\2.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\20.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\25.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\26.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\3.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\30.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\33.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\4.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\5.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\6.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\7.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\8.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\gallary\9.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\generic-logo.png" />
+    <Content Include="Assets\bootstrap\materialize\images\img2.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\img3.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\img4.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\img5.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\img6.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\img7.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\img8.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\login-logo.png" />
+    <Content Include="Assets\bootstrap\materialize\images\materialize-logo.png" />
+    <Content Include="Assets\bootstrap\materialize\images\office.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\sample-1.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\signature-scan.png" />
+    <Content Include="Assets\bootstrap\materialize\images\style_typography_roboto.png" />
+    <Content Include="Assets\bootstrap\materialize\images\user-bg-2.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\user-bg.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\user-profile-bg.jpg" />
+    <Content Include="Assets\bootstrap\materialize\images\yuna.html" />
+    <Content Include="Assets\bootstrap\materialize\js\jquery-1.11.2.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\materialize.js" />
+    <Content Include="Assets\bootstrap\materialize\js\materialize.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\chartist-js\chartist-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\chartist-js\chartist.min.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\chartist-js\chartist.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\chartjs\chart-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\chartjs\chart.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\chartjs\chartjs-sample-chart.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\d3\d3.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\css\jquery.dataTables.min.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\data-tables-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\images\sort_asc.png" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\images\sort_asc_disabled.png" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\images\sort_both.png" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\images\sort_desc.png" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\images\sort_desc_disabled.png" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\data-tables\js\jquery.dataTables.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\flot-chart\flot-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\flot-chart\jquery.flot.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\flot-chart\jquery.flot.pie.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\flot-chart\jquery.flot.stack.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\flot-chart\jquery.flot.time.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\fullcalendar\css\fullcalendar.min.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\fullcalendar\fullcalendar-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\fullcalendar\js\fullcalendar.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\fullcalendar\lib\jquery-ui.custom.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\fullcalendar\lib\moment.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\imagesloaded.pkgd.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\jvectormap\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\jvectormap\jquery-jvectormap.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\jvectormap\vectormap-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\magnific-popup\magnific-popup.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\masonry.pkgd.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\morris-chart\morris-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\morris-chart\morris.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\morris-chart\morris.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\sparkline\sparkline-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\xcharts\xcharts-script.js" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\xcharts\xcharts.min.css" />
+    <Content Include="Assets\bootstrap\materialize\js\plugins\xcharts\xcharts.min.js" />
+    <Content Include="Assets\bootstrap\materialize\js\prism.js" />
+    <Content Include="Assets\bootstrap\materialize\js\raphael-min.js" />
+    <Content Include="Assets\images\bg.jpg" />
+    <Content Include="Assets\images\bg1.jpg" />
+    <Content Include="Assets\images\icons\CITtracker.png" />
+    <Content Include="Assets\images\icons\Collaboration.png" />
+    <Content Include="Assets\images\icons\EditIcon.png" />
+    <Content Include="Assets\images\icons\leaveApplication.png" />
+    <Content Include="Assets\images\icons\LetsHearIt.png" />
+    <Content Include="Assets\images\icons\LogOut.png" />
+    <Content Include="Assets\images\icons\profile_icon.png" />
+    <Content Include="Assets\images\icons\Promotion.png" />
+    <Content Include="Assets\images\icons\SchedAdjustment.png" />
+    <Content Include="Assets\images\icons\workBench.png" />
+    <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\logomain.png" />
+    <Content Include="Assets\images\logo_blue.png" />
+    <Content Include="Assets\images\new-login-page-background.jpg" />
+    <Content Include="Assets\images\no-image.jpg" />
+    <Content Include="Assets\images\tieboxlogowhite.png" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\kojs3_4.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <None Include="Scripts\angular.intellisense.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\bootstrap\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
+    <Content Include="Assets\bootstrap\materialize\font\material-design-icons\Material-Design-Icons.woff" />
+    <Content Include="Assets\bootstrap\materialize\font\material-design-icons\Material-Design-Iconsd41d.eot" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Bold.ttf" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Bold.woff" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Light.ttf" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Light.woff" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Medium.ttf" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Medium.woff" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Regular.ttf" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Regular.woff" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Thin.ttf" />
+    <Content Include="Assets\bootstrap\materialize\font\roboto\Roboto-Thin.woff" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\kojs\modelView\homeController.js" />
+    <Content Include="Scripts\kojs\model\Person.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="UPLOADS\ProfileImage\no-image.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_materializeLayoutLogin.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Shared\_materializeLayoutAdmin.cshtml" />
+    <Content Include="Views\Administrator\Index.cshtml" />
+    <Content Include="Views\Shared\_materializeLayoutEmployee.cshtml" />
+    <Content Include="Views\Shared\_materializeLayoutTimeClock.cshtml" />
+    <Content Include="Views\TimeClock\Index.cshtml" />
+    <Content Include="Views\Shared\_materializeLayoutSuperAdmin.cshtml" />
+    <Content Include="Views\SuperAdmin\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="APIModel\" />
+    <Folder Include="API\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="Assets\angularjs\Pages\Administrator\routes\people\users\routes\" />
+    <Folder Include="UPLOADS\SubscriberFiles\" />
+    <Folder Include="Views\AddOn\" />
+    <Folder Include="Views\Application\" />
+    <Folder Include="Views\AttendanceStatus\" />
+    <Folder Include="Views\Attendance\" />
+    <Folder Include="Views\BreakType\" />
+    <Folder Include="Views\Company\" />
+    <Folder Include="Views\Department\" />
+    <Folder Include="Views\Holiday\" />
+    <Folder Include="Views\JobTitle\" />
+    <Folder Include="Views\Logout\" />
+    <Folder Include="Views\Schedule\" />
+    <Folder Include="Views\Shift\" />
+    <Folder Include="Views\TimeZone\" />
+    <Folder Include="Views\UserBreakTime\" />
+    <Folder Include="Views\Users\" />
+    <Folder Include="Views\Utility\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GeneralClass\GeneralClass.csproj">
+      <Project>{270ac119-ab0b-4844-ae54-53033d2498e3}</Project>
+      <Name>GeneralClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Data\App.Data.csproj">
+      <Project>{3db8502a-5883-4561-882e-23684f3900aa}</Project>
+      <Name>App.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\main.repository\Repository.csproj">
+      <Project>{ABDDD9F2-CE97-45F4-A722-09B65D91E41B}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\main.service\Service.csproj">
+      <Project>{998AD13C-7328-4CE0-A39B-32A997E95063}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50859</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50859/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

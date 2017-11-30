@@ -1,0 +1,12 @@
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\obj\Debug\main.repository.csprojResolveAssemblyReference.cache
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\main.repository.dll.config
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\main.repository.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\main.repository.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\App.Data.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\EntityFramework.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\App.Data.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\EntityFramework.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\obj\Debug\main.repository.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.repository\obj\Debug\main.repository.pdb

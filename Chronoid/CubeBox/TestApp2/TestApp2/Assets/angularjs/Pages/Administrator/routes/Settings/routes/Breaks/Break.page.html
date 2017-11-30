@@ -1,0 +1,73 @@
+﻿<main >
+    <h1>Break Page</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Enable Time</td>
+                <td>Disabled Time</td>
+                <td>Hex Color</td>
+                <td>Order #</td>
+                <td>Time Limit/sec</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <input type="text" ng-model="breakController.model.Description" />
+                </td>
+                <td>
+                    <input type="text" ng-model="breakController.model.EnableTime" />
+                </td>
+                <td>
+                    <input type="text" ng-model="breakController.model.DisableTime" />
+                </td>
+                <td>
+                    <input type="text" ng-model="breakController.model.HexColor"/>
+                </td>
+                <td>
+                    <input type="text" ng-model="breakController.model.OrderNumber" />
+                </td>
+                <td>
+                    <input type="text" ng-model="breakController.model.TimeLimit" />
+                </td>
+                <td>
+                    <input type="button" value="Add" ng-click="breakController.Insert()"/>
+                </td>
+            </tr>
+            <tr ng-repeat="item in  breakController.list">
+                <td>
+                    <input type="text" ng-model="item.Description" ng-if="item.isEdit"/>
+                    <span ng-if="!item.isEdit">{{item.Description}}</span>
+                </td>
+                <td>
+                    <input type="text" ng-model="item.EnableTime" ng-if="item.isEdit" />
+                    <span ng-if="!item.isEdit">{{item.EnableTime}}</span>
+                </td>
+                <td>
+                    <input type="text" ng-model="item.DisableTime" ng-if="item.isEdit" />
+                    <span ng-if="!item.isEdit">{{item.DisableTime}}</span>
+                </td>
+                <td>
+                    <input type="text" ng-model="item.HexColor" ng-if="item.isEdit" />
+                    <span ng-if="!item.isEdit">{{item.HexColor}}</span>
+                </td>
+                <td>
+                    <input type="text" ng-model="item.OrderNumber" ng-if="item.isEdit" />
+                    <span ng-if="!item.isEdit">{{item.OrderNumber}}</span>
+                </td>
+                <td>
+                    <input type="text" ng-model="item.TimeLimit" ng-if="item.isEdit" />
+                    <span ng-if="!item.isEdit">{{item.TimeLimit}} sec</span>
+                </td>
+                <td>
+                    <input type="button" value="Save" ng-if="item.isEdit" ng-click="breakController.OnClick(item, $index, 1)"/>
+                    <input type="button" value="Delete" ng-if="item.isEdit" ng-click="breakController.OnClick(item, $index, 2)"/>
+                    <input type="button" value="Cancel" ng-if="item.isEdit" ng-click="breakController.OnClick(item)"/>
+                    <input type="button" value="Edit" ng-if="!item.isEdit" ng-click="breakController.OnClick(item)"/>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</main>

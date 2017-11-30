@@ -1,0 +1,44 @@
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.service.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.service.pdb
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\App.Data.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.repository.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\EntityFramework.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\App.Data.pdb
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.repository.pdb
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\bin\Debug\EntityFramework.xml
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\obj\Debug\indexcare.service.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\obj\Debug\indexcare.service.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.service\obj\Debug\indexcare.service.pdb
+E:\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.service.dll
+E:\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.service.pdb
+E:\TFS\IndexCare\indexcare.service\bin\Debug\App.Data.dll
+E:\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.repository.dll
+E:\TFS\IndexCare\indexcare.service\bin\Debug\EntityFramework.dll
+E:\TFS\IndexCare\indexcare.service\bin\Debug\App.Data.pdb
+E:\TFS\IndexCare\indexcare.service\bin\Debug\indexcare.repository.pdb
+E:\TFS\IndexCare\indexcare.service\bin\Debug\EntityFramework.xml
+E:\TFS\IndexCare\indexcare.service\obj\Debug\indexcare.service.csprojResolveAssemblyReference.cache
+E:\TFS\IndexCare\indexcare.service\obj\Debug\indexcare.service.dll
+E:\TFS\IndexCare\indexcare.service\obj\Debug\indexcare.service.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\obj\Debug\indexcare.service.csprojResolveAssemblyReference.cache
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\obj\Debug\indexcare.service.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\obj\Debug\indexcare.service.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\indexcare.service.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\indexcare.service.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\indexcare.repository.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\indexcare.repository.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.service\bin\Debug\EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\indexcare.service.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\indexcare.service.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\indexcare.repository.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\indexcare.repository.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\bin\Debug\EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\obj\Debug\indexcare.service.csprojResolveAssemblyReference.cache
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\obj\Debug\indexcare.service.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.service\obj\Debug\indexcare.service.pdb

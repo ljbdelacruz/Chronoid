@@ -1,0 +1,21 @@
+﻿::-webkit-input-placeholder {
+   text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+#my-textbox4 {
+    width:100%; height:100%; 
+    margin-left:3px !important; 
+    padding: 3px 3px 3px 3px !important;
+    border:none !important;
+    outline: none !important;
+    box-shadow:none !important;
+}
+

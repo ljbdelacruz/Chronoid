@@ -1,0 +1,12 @@
+<div>
+    <a style="outline: none; cursor:pointer; text-decoration:none;" ng-click="ToggleNav()" class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" data-activates="profile-dropdown"><span style="overflow:hidden">{{title}}</span><i class="mdi-navigation-arrow-drop-down right"></i></a>
+    <ul id="profile-dropdown" class="{{class}}" style="{{style}} margin-top:10px;">
+        <li ng-repeat="item in items">
+            <a ng-click="SelectedOption(item)" style="text-decoration:none;"><i class="{{item.icon}}"></i>{{item.label}}</a>
+        </li>
+        <li class="divider"></li>
+        <!--<li ng-repeat="item in items2">
+            <a ng-click="SelectedOption(item)" style="text-decoration:none;" href="#"><i class="{{item.icon}}"></i>{{item.label}}</a>
+        </li>-->
+    </ul>
+</div>

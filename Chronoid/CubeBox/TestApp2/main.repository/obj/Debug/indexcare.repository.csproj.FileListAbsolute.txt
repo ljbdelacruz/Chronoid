@@ -1,0 +1,48 @@
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\indexcare.repository.dll.config
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\indexcare.repository.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\indexcare.repository.pdb
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\App.Data.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\App.Data.pdb
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.xml
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\obj\Debug\indexcare.repository.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\obj\Debug\indexcare.repository.dll
+C:\MyWorkSpace\TFS\IndexCare\indexcare.repository\obj\Debug\indexcare.repository.pdb
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\indexcare.repository.dll.config
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\indexcare.repository.dll
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\indexcare.repository.pdb
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\App.Data.dll
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.dll
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\App.Data.pdb
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.xml
+E:\TFS\IndexCare\indexcare.repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\TFS\IndexCare\indexcare.repository\obj\Debug\indexcare.repository.csprojResolveAssemblyReference.cache
+E:\TFS\IndexCare\indexcare.repository\obj\Debug\indexcare.repository.dll
+E:\TFS\IndexCare\indexcare.repository\obj\Debug\indexcare.repository.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\obj\Debug\indexcare.repository.csprojResolveAssemblyReference.cache
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\obj\Debug\indexcare.repository.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\obj\Debug\indexcare.repository.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\indexcare.repository.dll.config
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\indexcare.repository.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\indexcare.repository.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\indexcare.repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\indexcare.repository.dll.config
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\indexcare.repository.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\indexcare.repository.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\obj\Debug\indexcare.repository.csprojResolveAssemblyReference.cache
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\obj\Debug\indexcare.repository.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\indexcare.repository\obj\Debug\indexcare.repository.pdb

@@ -1,0 +1,40 @@
+﻿<main>
+    <div class="row">
+        <div class="col-lg-1">
+            <common-people-navbar items="navController.optionButtons"></common-people-navbar>
+        </div>
+        <!--People List-->
+        <div class="col-lg-11" ng-if="subRouteController.mode==0">
+            <input type="text" ng-model="employeeController.searchPerson" placeholder="Search Employee..." style="width:300px; font-size:20px;" />
+            <table1 style="font-size:20px;" header="[
+                             { label:'Full Name'},
+                             { label:'Job Title'},
+                             { label:'Job Status'},
+                             { label:'Login ID'},
+                             { label:'Options'}]"
+                    items="employeeController.displayData | filter : employeeController.searchPerson"
+                    row-options="employeeController.optionButtons">
+            </table1>
+        </div>
+        <!--Create Customer-->
+        <div class="col-lg-10" ng-if="subRouteController.mode==1">
+        </div>
+    </div>
+    <!--Modal for changing user credentials-->
+    <modal4 title="'Modify Credentials'" show="modalController4.Show" buttons="modalController4.buttons" style="position:absolute; top:10%; left:35%; z-index:101; width:600px;">
+        <div class="row" style="margin:0px !important">
+            <div class="col-lg-12" style="margin:0px !important">
+                <input type="text" placeholder="Username" style="font-size:30px; width:100%;" ng-model="credsController.model.Username"/>
+            </div>
+            <div class="col-lg-12" style="margin:0px !important">
+                <input type="text" placeholder="Password" style="font-size:30px; width:100%;" ng-model="credsController.model.Password"/>
+            </div>
+        </div>
+    </modal4>
+
+
+
+
+
+</main>
+

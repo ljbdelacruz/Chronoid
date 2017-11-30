@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_materializeLayoutTimeClock.cshtml";
+}
+<!--Modules-->
+<script src="~/Assets/angularjs/Pages/Timeclock/routes/main/module.js"></script>
+<script src="~/Assets/angularjs/Pages/Timeclock/routes/main/MainCtrl.page.js"></script>
+
+
+<!--Main-->
+<script src="~/Assets/angularjs/Pages/Timeclock/app.js"></script>
+<script src="~/Assets/angularjs/Pages/Timeclock/appCtrl.js"></script>
+<main ng-controller="TimeClockAppCtrl">
+    <div ng-view></div>
+</main>
+

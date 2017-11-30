@@ -1,0 +1,49 @@
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\GeneralClass\bin\Debug\GeneralClass.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\GeneralClass\bin\Debug\GeneralClass.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\GeneralClass\obj\Debug\GeneralClass.csprojResolveAssemblyReference.cache
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\GeneralClass\obj\Debug\GeneralClass.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\GeneralClass\obj\Debug\GeneralClass.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.xml
+C:\Analog\DIY\FinalProject\TestApp2\GeneralClass\bin\Debug\GeneralClass.dll
+C:\Analog\DIY\FinalProject\TestApp2\GeneralClass\bin\Debug\GeneralClass.pdb
+C:\Analog\DIY\FinalProject\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.dll
+C:\Analog\DIY\FinalProject\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.xml
+C:\Analog\DIY\FinalProject\TestApp2\GeneralClass\obj\Debug\GeneralClass.dll
+C:\Analog\DIY\FinalProject\TestApp2\GeneralClass\obj\Debug\GeneralClass.pdb
+C:\Analog\DIY\FinalProject\TestApp2\GeneralClass\obj\Debug\GeneralClass.csprojResolveAssemblyReference.cache
+C:\Analog\DIY\FinalApp\FUCKER DIY\App\TestApp2\GeneralClass\bin\Debug\GeneralClass.dll
+C:\Analog\DIY\FinalApp\FUCKER DIY\App\TestApp2\GeneralClass\bin\Debug\GeneralClass.pdb
+C:\Analog\DIY\FinalApp\FUCKER DIY\App\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.dll
+C:\Analog\DIY\FinalApp\FUCKER DIY\App\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.xml
+C:\Analog\DIY\FinalApp\FUCKER DIY\App\TestApp2\GeneralClass\obj\Debug\GeneralClass.csprojResolveAssemblyReference.cache
+C:\Analog\DIY\FinalApp\FUCKER DIY\App\TestApp2\GeneralClass\obj\Debug\GeneralClass.dll
+C:\Analog\DIY\FinalApp\FUCKER DIY\App\TestApp2\GeneralClass\obj\Debug\GeneralClass.pdb
+C:\Analog\Personal\App\TestApp2\GeneralClass\bin\Debug\GeneralClass.dll
+C:\Analog\Personal\App\TestApp2\GeneralClass\bin\Debug\GeneralClass.pdb
+C:\Analog\Personal\App\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.dll
+C:\Analog\Personal\App\TestApp2\GeneralClass\bin\Debug\System.Web.Mvc.xml
+C:\Analog\Personal\App\TestApp2\GeneralClass\obj\Debug\GeneralClass.csprojResolveAssemblyReference.cache
+C:\Analog\Personal\App\TestApp2\GeneralClass\obj\Debug\GeneralClass.dll
+C:\Analog\Personal\App\TestApp2\GeneralClass\obj\Debug\GeneralClass.pdb
+C:\Analog\CubeBox\GeneralClass\bin\Debug\GeneralClass.dll
+C:\Analog\CubeBox\GeneralClass\bin\Debug\GeneralClass.pdb
+C:\Analog\CubeBox\GeneralClass\bin\Debug\System.Web.Mvc.dll
+C:\Analog\CubeBox\GeneralClass\bin\Debug\System.Web.Mvc.xml
+C:\Analog\CubeBox\GeneralClass\obj\Debug\GeneralClass.csprojResolveAssemblyReference.cache
+C:\Analog\CubeBox\GeneralClass\obj\Debug\GeneralClass.dll
+C:\Analog\CubeBox\GeneralClass\obj\Debug\GeneralClass.pdb
+C:\Analog\TFS\Chronoid\CubeBox\GeneralClass\bin\Debug\GeneralClass.dll
+C:\Analog\TFS\Chronoid\CubeBox\GeneralClass\bin\Debug\GeneralClass.pdb
+C:\Analog\TFS\Chronoid\CubeBox\GeneralClass\bin\Debug\System.Web.Mvc.dll
+C:\Analog\TFS\Chronoid\CubeBox\GeneralClass\bin\Debug\System.Web.Mvc.xml
+C:\Analog\TFS\Chronoid\CubeBox\GeneralClass\obj\Debug\GeneralClass.csprojResolveAssemblyReference.cache
+C:\Analog\TFS\Chronoid\CubeBox\GeneralClass\obj\Debug\GeneralClass.dll
+C:\Analog\TFS\Chronoid\CubeBox\GeneralClass\obj\Debug\GeneralClass.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\GeneralClass\bin\Debug\GeneralClass.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\GeneralClass\bin\Debug\GeneralClass.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\GeneralClass\bin\Debug\System.Web.Mvc.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\GeneralClass\bin\Debug\System.Web.Mvc.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\GeneralClass\obj\Debug\GeneralClass.csprojResolveAssemblyReference.cache
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\GeneralClass\obj\Debug\GeneralClass.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\GeneralClass\obj\Debug\GeneralClass.pdb

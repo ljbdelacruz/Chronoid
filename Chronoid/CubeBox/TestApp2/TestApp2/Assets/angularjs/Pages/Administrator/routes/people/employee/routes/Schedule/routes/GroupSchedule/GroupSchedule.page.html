@@ -1,0 +1,117 @@
+﻿<main>
+    <div class="row">
+        <div class="col-lg-2">
+            <common-people-navbar items="navController.optionButtons"></common-people-navbar>
+        </div>
+
+        <div class="col-lg-7">
+            <h1>Group Schedule</h1>
+    
+            <a href="#/Employee/Schedule">Back</a>
+
+                <div class="col-lg-12 row">
+                    <div class="col-lg-2">
+                        Date Range
+                    </div>
+                    <div class="col-lg-10">
+                        <input type="text" placeholder="From" ng-model="scheduleController.model.from"/>
+                        -
+                        <input type="text" placeholder="To" ng-model="scheduleController.model.to" />
+                    </div>
+
+
+                    <div class="col-lg-12 row" style="margin-top:100px;">
+                        <div class="col-lg-2">
+                            Department
+                            <a href="" class="pull-right" ng-click="modalController4.Show()">
+                                <i class="mdi mdi-content-add"></i>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="departmentController.model.id" ng-change="departmentController.OnChange(departmentController.model.id)" material-select="">
+                                <option value="0" disabled="" style="font-size:15px;" selected>Choose Department</option>
+                                <option ng-repeat="item in departmentController.lists" value="{{item.ID}}" class="ng-binding ng-scope">{{item.Name}}</option>
+                            </select>
+
+                        </div>
+
+                        <div class="col-lg-4">
+                            <checkbox1 label="'Select All'"></checkbox1>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-3">
+                            Employee Name
+                        </div>
+                        <div class="col-lg-9">
+                            <div ng-repeat="item in usersController.selected">
+                                {{item.FirstName}} {{item.LastName}}
+                                <input type="button" value="REMOVE" ng-click="usersController.Remove($index)"/>
+                            </div>
+
+                            <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="usersController.model.id" ng-change="usersController.OnChange(usersController.model.id)" material-select="">
+                                <option value="0" disabled="" style="font-size:15px;" selected>Choose Users</option>
+                                <option ng-repeat="item in usersController.list" value="{{item.ID}}" class="ng-binding ng-scope">{{item.FirstName}} {{item.LastName}}</option>
+                            </select>
+
+                            <input type="text" placeholder="Search Employee" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-3">
+                            Shift
+                        </div>
+                        <div class="col-lg-6">
+                            <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="shiftController.model.ID" ng-change="shiftController.OnChange(shiftController.model.ID)" material-select="">
+                                <option value="0" disabled="" style="font-size:15px;" selected>Select Shift</option>
+                                <option ng-repeat="item in shiftController.list" value="{{item.ID}}" class="ng-binding ng-scope">{{item.Name}} {{item.TimeIn}}-{{item.TimeOut}}</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="well well-sm">{{shiftController.model.TotalWorkedHours}} hours</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-2">
+                            Work Days
+                        </div>
+                        <div class="col-lg-1">
+                            <checkbox1 ng-repeat="item in scheduleController.model.options"
+                                       label="item.Day"
+                                       event="scheduleController.DaysOnChange"
+                                       value="item.isSelected"
+                                       item="item">
+                            </checkbox1>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 row">
+                        <div class="col-lg-3">
+                            PTO
+                        </div>
+                        <div class="col-lg-9">
+                            <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="addOnController.model.ID" ng-change="addOnController.OnChange(addOnController.model.ID)" material-select="">
+                                <option value="0" disabled="" style="font-size:15px;" selected>Select PTO</option>
+                                <option ng-repeat="item in addOnController.list" value="{{item.ID}}" class="ng-binding ng-scope">{{item.Description}}</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="button" value="ADD" ng-click="scheduleController.Insert()"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <modal4 title="'Add Department'" show="modalController4.Show" buttons="modalController4.buttons" style="position:absolute; top:10%; left:35%; z-index:101; width:600px;">
+            <div class="row" style="margin:0px !important">
+                <div class="col-lg-12" style="margin:0px !important">
+                    <input type="text" placeholder="Name" style="font-size:30px; width:100%;" ng-model="modalController4.model.Name" />
+                </div>
+            </div>
+        </modal4>
+</main>
+

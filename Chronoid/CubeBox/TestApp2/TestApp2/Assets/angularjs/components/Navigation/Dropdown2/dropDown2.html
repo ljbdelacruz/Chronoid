@@ -1,0 +1,14 @@
+<div style="width:50px;" ng-mouseover="Hover()" ng-mouseleave="Out()">
+    <div class="{{dpBGColor}}" style="position:fixed; z-index:2">
+        <a class="btn-large red" ng-mouseover="Hover()">
+            <i class="large {{icon}}"></i>
+        </a>
+        <ol style="padding-top:0px; padding-left:10px; padding-right:5px; float:right">
+            <li ng-repeat="item in items" class="{{class}}">
+                <div style="width:100px; height:100px; background-color:#f67d20; border-radius:100%;" ng-click="SelectedOption(item.option)">
+                        <i style="color:white; margin-left:28px;margin-top:25px; " class="medium {{item.icon}}" ng-click="SelectedOption()"></i>
+                </div>
+            </li>
+        </ol>
+    </div>
+</div>

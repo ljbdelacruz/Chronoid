@@ -1,0 +1,19 @@
+﻿<div class="my-modal modal1" ng-show="controller.isShow" ng-class="controller.class" style="width:400px">
+    <link rel="stylesheet" type="text/css" href="/Assets/angularjs/components/Modals/Modal1/style.css" />
+    <div class="my-backdrop" style="width:100%">
+    </div>
+        <div class="my-modal-header" style="height:25%; padding-bottom:20px !important;">
+            <h3 class="title">{{title}}</h3>
+        </div>
+        <div class="my-modal-content">
+            <div ng-transclude style="width:100%; padding:0px !important; margin:0px !important;">
+            </div>
+        </div>
+        <div class="my-modal-footer">
+            <div class="button-container row">
+                <burning-icon1 interval="1000" ></burning-icon1>
+                <button ng-if="confirmLabel=='' ? false : true" class="send-color padding-0px button-cancel btn waves-effect" ng-click="ConfirmModal()" style="background-color:#0474bc !important;">{{confirmLabel}}</button>
+                <button ng-if="cancelLabel=='' ? false : true" class="send-color padding-0px button-send btn waves-effect" ng-click="controller.CloseModal()" style="background-color:#0474bc !important;">{{cancelLabel}}</button>
+            </div>
+        </div>
+</div>

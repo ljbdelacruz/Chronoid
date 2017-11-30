@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_materializeLayoutAdmin.cshtml";
+}
+@* Routes *@
+<script src="~/Assets/angularjs/Pages/Administrator/routes/main/module.js"></script>
+<script src="~/Assets/angularjs/Pages/Administrator/routes/main/MainCtrl.page.js"></script>
+@* People Routes *@
+<script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/module.js"></script>
+<script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/EmployeeCtrl.page.js"></script>
+    @* People Sub Routes *@
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/AddUsers/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/AddUsers/AddUsersCtrl.page.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/EditUsers/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/EditUsers/EditUsersCtrl.page.js"></script>
+
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Schedule/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Schedule/ScheduleCtrl.page.js"></script>
+        <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Schedule/routes/AddShift/module.js"></script>
+        <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Schedule/routes/AddShift/AddShiftCtrl.page.js"></script>
+        <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Schedule/routes/GroupSchedule/module.js"></script>
+        <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Schedule/routes/GroupSchedule/GroupScheduleCtrl.page.js"></script>
+
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Report/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Report/ReportCtrl.page.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Holiday/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/employee/routes/Holiday/HolidayCtrl.page.js"></script>
+    @* Users *@
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/users/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/users/UsersCtrl.page.js"></script>
+
+    @* Sub Directives *@
+    <script src="~/Assets/angularjs/Pages/Administrator/routes/people/common/peopleNavbar/peopleNavbar.common.js"></script>
+
+<script src="~/Assets/angularjs/Pages/Administrator/routes/people/publicView/module.js"></script>
+<script src="~/Assets/angularjs/Pages/Administrator/routes/people/publicView/PublicViewCtrl.page.js"></script>
+
+@* Settings *@
+<script src="~/Assets/angularjs/Pages/Administrator/routes/Settings/routes/Breaks/module.js"></script>
+<script src="~/Assets/angularjs/Pages/Administrator/routes/Settings/routes/Breaks/BreakCtrl.page.js"></script>
+
+@* End HEre *@
+<script src="~/Assets/angularjs/Pages/Administrator/app.js"></script>
+<script src="~/Assets/angularjs/Pages/Administrator/appCtrl.js"></script>
+<main ng-controller="AdminAppCtrl">
+    <div style="position:fixed !important; left:0px !important; top:0px !important; background-color: #0b9c8f; height:100px !important; width:100% !important; z-index:100;">
+        <img src="~/Assets/images/logo.png" style="width:200px; height: 80px !important; margin-left:30px; margin-top:5px;"/>
+        <div class="pull-right">
+            <h3 >
+                <a style="text-decoration:none; color:white; font-size:30px; cursor:pointer; padding-right:50px;" ng-click="dropDownController.Toggle()">Hi {{navController.username}} !</a>
+            </h3>
+            @*<div ng-hide="dropDownController.isShow" style="position:absolute; transform: translate(-175px, 0px);  width:300px; ">
+                <div class="row" style="width:100%;">
+                    <div class="col-lg-12">
+                        <div class="collection">
+                            <a style="font-size:20px; cursor:pointer;" ng-repeat="item in dropDownController.items" ng-click="dropDownController.Navigate(item.link)" class="collection-item">{{item.label}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+            <drop-down3 items="dropDownController.items" toggle="dropDownController.Toggle" event="dropDownController.Navigate"></drop-down3>
+        </div>
+
+
+    </div>
+
+    <div style="margin-top:110px; " ng-view></div>
+    @*<div class="row">
+        <div class="col-lg-1" ng-if="navController.isShowPeopleNavbar">
+            <div style="width:200px; height: 100%; position:fixed; background-color:black; top:0px; left:0px;"></div>
+        </div>
+        <div ng-class="navController.isShowPeopleNavbar ? 'col-lg-11' : 'col-lg-12'">
+        </div>
+    </div>*@
+</main>
+

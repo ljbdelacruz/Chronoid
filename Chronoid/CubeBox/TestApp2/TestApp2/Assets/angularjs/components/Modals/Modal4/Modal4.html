@@ -1,0 +1,18 @@
+﻿<div class="my-modal modal4" ng-hide="isShow">
+    <link rel="stylesheet" type="text/css" href="/Assets/angularjs/components/Modals/Modal4/style.css" />
+    <div class="my-backdrop" style="width:100%">
+    </div>
+    <div class="my-modal-header" style="height:25%; padding-bottom:20px !important;">
+        <h3 class="title">{{title}}</h3>
+    </div>
+    <div class="my-modal-content">
+        <div ng-transclude style="width:100%; padding:0px !important; margin:0px !important;">
+        </div>
+    </div>
+    <div class="my-modal-footer">
+        <div class="button-container row">
+            <!-- {label:'Done', invoke:function(){ alert('DONE'); }}-->
+            <button ng-repeat="item in buttons" ng-click="item.invoke()" class="send-color padding-0px button-send btn waves-effect">{{item.label}}</button>
+        </div>
+    </div>
+</div>

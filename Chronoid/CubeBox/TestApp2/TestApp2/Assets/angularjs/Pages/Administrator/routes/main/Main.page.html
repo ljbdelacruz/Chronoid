@@ -1,0 +1,22 @@
+﻿<main >
+    <div class="row" style="width:100% !important;">
+        <div class="col-lg-4" ng-repeat="option in navigationController.options">
+            <card-container3 style="width:100% !important; height:300px !important; color:#8bbf95; background-color:{{option.bgColor}}" header="option.title">
+                <div class="row">
+                    <div class="col-lg-4" ng-repeat="item in option.options">
+                        <div class="wrapper transparent" ng-click="navigationController.navigatePath(item.link)" style="cursor:pointer; color:white !important; font-size:20px; border-right: 1px solid #08857a;">
+                            <span class="item-title">{{item.title}}</span> <span data-animation-duration="700" data-value="2415" class="item-count animate-number semi-bold"><br>{{item.data | limitTo:15}}</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:100%; color:white !important;" class="progress transparent progress-small no-radius m-t-20">
+                    <div data-percentage="30%" class="progress-bar progress-bar-white animate-progress-bar" style="width: 100%;"></div>
+                </div>
+                <div class="description" style="color:white !important; font-size:20px;">
+                    <span class="text-white mini-description ">{{option.description}} </span>
+                </div>
+            </card-container3>
+        </div>
+    </div>
+</main>
+

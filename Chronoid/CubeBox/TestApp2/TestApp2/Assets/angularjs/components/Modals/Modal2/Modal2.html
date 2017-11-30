@@ -1,0 +1,17 @@
+﻿<div class="my-modal" ng-show="controller.isShow" ng-class="controller.class" style="width:940px">
+    <link rel="stylesheet" type="text/css" href="/Assets/angular/main/components/Modals/Modal2/style.css" />
+    <div class="my-backdrop" style="width:100%">
+    </div>
+    <div class="my-modal-header" style="height:25%; padding-bottom:20px !important;">
+        <h3 class="title">{{title}}</h3>
+    </div>
+    <div class="my-modal-content" style="width:">
+        <div ng-transclude style="width:100%">
+        </div>
+    </div>
+    <div class="my-modal-footer">
+        <div class="button-container row">
+            <button class="send-color padding-0px button-send btn waves-effect waves-#00EDED" ng-click="controller.CloseModal()" style="background-color:#0474bc !important;">{{label1}}</button>
+        </div>
+    </div>
+</div>

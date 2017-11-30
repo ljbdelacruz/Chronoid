@@ -1,0 +1,72 @@
+﻿<div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div style="margin:0px !important; width:100%; height:100px; position:fixed !important; z-index:100; top:0px !important; left:0px !important; background-color:#0288d1;">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="/Assets/images/tieboxlogowhite.png" style="width:150px !important; height:50px !important; margin-top:25px !important; margin-left:50px !important;" />
+                    </div>
+                    <div class="col-lg-10">
+                        <text-box3 style="margin-top:25px !important;" placeholder="'Find Your Name'" type="'text'" output="employeeController.employeeName"></text-box3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-10" style="margin-top:100px !important; ">
+            <card-container1 style="margin:auto; width:100% !important; height:1800px !important">
+                <h3 style="color:#b19999;">Currently Logged IN/OUT</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Schedule</td>
+                                    <td>Actual Logged-in</td>
+                                    <td>Actual Logged-out</td>
+                                </tr>
+                            </thead>
+                            <tr ng-repeat="item in dataController.timeIns | filter : employeeController.employeeName">
+                                <td>
+                                    <img src="{{item.profileImage}}" style="width:60px; height:60px;" />
+                                    {{item.name}}
+                                </td>
+                                <td>{{item.schedule}}</td>
+                                <td>
+                                    <img src="{{item.timeInImage}}" style="width:60px; height:60px; "/>
+                                    {{item.timeInTime}}
+                                </td>
+                                <td>
+                                    <img src="{{item.timeOutImage}}" style="width:60px; height:60px; " />
+                                    {{item.timeOutTime}}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </card-container1>
+        </div>
+    </div>
+    <!-- Side bar menu -->
+    <card-container1 style="margin:auto; width:340px !important; height:100%; position:fixed !important; top:100px !important; left:0px !important;">
+    </card-container1>
+    <!--Floating Notification-->
+    <card-container1 style="margin:auto; width:440px !important; position:fixed !important; top:120px !important; left:75% !important">
+        <div class="row" style="text-align:center;">
+            <div class="col-lg-12">
+                <clock1-widget ghours="clockController.timeObject.hour" gmins="clockController.timeObject.minute" gsecs="clockController.timeObject.second" control="clockController" style="font-size:50px; color:#57a0af !important; margin-top:50px;"></clock1-widget>
+            </div>
+            <div class="col-lg-12">
+                <h3>{{clockController.timeObject.Day}}, {{clockController.timeObject.Month}} {{clockController.timeObject.day}}, {{clockController.timeObject.year}}</h3>
+            </div>
+            <div class="col-lg-12">
+                <webcam1 image-data="cameraController.imageData" capture-event="cameraController.IsImageReady" controller="cameraController"></webcam1>
+            </div>
+            <div class="col-lg-12">
+                <text-box4 style="width:90% !important; height:100px !important; margin-left:5% !important; margin-top:50px !important;" placeholder="'Login ID Number'" type="'text'" output="employeeController.loginID" font-size="30" event="cameraController.EnterKey()" ></text-box4>
+            </div>
+        </div>
+    </card-container1>
+</div>
+

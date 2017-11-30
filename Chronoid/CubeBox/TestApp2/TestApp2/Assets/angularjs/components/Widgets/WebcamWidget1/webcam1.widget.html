@@ -1,0 +1,8 @@
+<div style="width:100%">
+    <webcam channel="channel"
+            on-streaming="onSuccess()"
+            on-error="onError(err)"
+            on-stream="onStream(stream)"></webcam>
+    <!--<button ng-click="controller.snap()">take picture</button>-->
+    <canvas class="hidden" id="snapshot" width="300" height="300"></canvas>
+</div>

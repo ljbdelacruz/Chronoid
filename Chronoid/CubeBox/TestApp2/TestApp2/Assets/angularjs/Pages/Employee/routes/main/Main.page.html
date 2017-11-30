@@ -1,0 +1,97 @@
+﻿<main >
+    <div class="row">
+        <div class="col-lg-3" style="height:500px; ">
+            <card-container2 style="margin:auto; box-shadow:none !important; width:100% !important;" header="'News'">
+            </card-container2>
+        </div>
+        <div class="col-lg-6" style="">
+                <card-container2 ng-hide="userController.isLogon" style="margin:auto; box-shadow:none !important; width:100% !important;" header="'TODAY'">
+                    <h1 style="text-align:center">Please Login First</h1>
+                </card-container2>
+                <card-container2 ng-hide="!userController.isLogon" style="margin:auto; box-shadow:none !important; width:100% !important;" header="'TODAY'">
+                    <div>
+                        <a href="" class="pull-right" style="font-size:20px; color:#366e87"><i class="mdi-communication-vpn-key"></i></a>
+                    </div>
+                    <div class="row" style="text-align:center;">
+                        <div class="col-lg-4" ng-repeat="item in breakController.buttons" style="padding:2px !important">
+                            <button1 style="width:100%; height:50px;  background-color:{{item.buttonColor}} !important; padding: 0px !important" label="item.title" ng-disabled="timerController.enableBreak" event="breakController.BreakStarted(item.value, item.limit)"></button1>
+                        </div>
+                    </div>                 
+                    <div class="row">
+                        <div class="col-lg-4">
+                        </div>
+                        <div class="col-lg-4" style="text-align:center;">
+                            <selection1 label="'Audio Alert'" items="audioController.audioList" output="audioController.selectedAudio" event="audioController.RetrieveDataFromSelection"></selection1>
+                        </div>
+                    </div>
+                    <div class="row" style="text-align:center; font-size:20px; color:#366e87">
+                        <div class="col-lg-3">
+                            <p>LOG-IN-TIME</p>
+                            <p ng-bind="dataController.timeIn" style="font-size:20px;"></p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>BREAKS</p>
+                            <div class="row">
+                                <div class="col-lg-12" ng-repeat="break in userController.userBreaksList">
+                                    <div style="font-size:15px;">{{break.breakType}}</div>
+                                    <div style="border-bottom:0.5px solid #808080; font-size:15px; margin-bottom:2px;">{{break.timeStarted}} - {{break.timeEnded}}</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <p>LOG-OUT TIME</p>
+                        </div>
+                    </div>
+                </card-container2>
+        </div>
+        <div class="col-lg-3" style="height:500px;">
+            <div ng-hide="!timerController.enableBreak">
+                <div style="width:100%;" ang:round:progress data-round-progress-model="roundProgressData"
+                     data-round-progress-width="400"
+                     data-round-progress-height="400"
+                     data-round-progress-outer-circle-width="40"
+                     data-round-progress-inner-circle-width="10"
+                     data-round-progress-outer-circle-radius="180"
+                     data-round-progress-inner-circle-radius="140"
+                     data-round-progress-label-font="30pt Arial"
+                     data-round-progress-outer-circle-background-color="#505769"
+                     data-round-progress-outer-circle-foreground-color="#12eeb9"
+                     data-round-progress-inner-circle-color="#505769"
+                     data-round-progress-label-color="#fff"
+                     >
+                </div>
+                <a style="position:absolute; top:250px; left:175px; text-decoration-style:none !important; cursor:pointer;" ng-click="dataController.EndBreakRequest()">END BREAK</a>
+                <timer1-widget ng-hide="true"  control="timerController" time-object="timerController.timeConsumed" limitation="roundProgressData.limitation" percent-consumed="roundProgressData.percentage" display-timer="roundProgressData.label" style="font-size:36px;" warning-invoke="timerController.InvokeWarning"></timer1-widget>
+            </div>
+            <div ng-hide="timerController.enableBreak">
+                <clock1-widget ghours="clockController.timeObject.hour" gmins="clockController.timeObject.minute" gsecs="clockController.timeObject.second" control="clockController" style="font-size:50px; color:#57a0af !important; margin-top:50px;"></clock1-widget>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top:100px;">
+        <div class="col-lg-4" style="height:500px;">
+            <card-container2 style="margin:auto; box-shadow:none !important; width:100% !important;" header="'UPDATES'">
+            </card-container2>
+        </div>
+        <div class="col-lg-4" style="height:500px;">
+            <card-container2 style="margin:auto; box-shadow:none !important; width:100% !important;" header="'AWESOME'">
+            </card-container2>
+        </div>
+        <div class="col-lg-4" style="height:500px;">
+            <card-container2 style="margin:auto; box-shadow:none !important; width:100% !important;" header="'Exploits'">
+            </card-container2>
+        </div>
+    </div>
+    <modal1 title="''" control="modalController" cancel-label="ModalObject.button2" confirm-label="ModalObject.button1" save-func="ModalObject.succeedEvent()" style="width:300px;">
+        <div style="text-align:center; ">
+            <burning-icon1 intervals="2" icon="ModalObject.icon" colors="ModalObject.colors" control="modalController.icon" style="font-size:30px !important;"></burning-icon1>
+            <h3>{{ModalObject.title}}</h3>
+            <p>{{ModalObject.description}}</p>
+        </div>
+    </modal1>
+    <modal2 title="''" control>
+
+
+    </modal2>
+</main>
+

@@ -1,0 +1,140 @@
+﻿<main >
+
+    <div class="row">
+        <div class="col-lg-1">
+            <common-people-navbar items="navController.optionButtons"></common-people-navbar>
+        </div>
+        <div class="col-lg-11">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12" style="text-align:center">
+                            <input type="button" class="pull-right" value="Save" ng-click="employeeController.AddNewCustomer()" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <card-container1 style="margin:auto; width:100% !important;">
+                        <div class="row">
+                            <div class="col-lg-12" style="text-align:center; margin-bottom:30px;">
+                                <h3>Basic Information</h3>
+                            </div>
+                            <!--Firstname-->
+                            <div class="col-lg-12">
+                                <h3>First Name *</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'Find Your Name'" placeholder="''" type="'text'" output="employeeController.createModel.FirstName" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Last Name-->
+                            <div class="col-lg-12">
+                                <h3>Last Name *</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'Find Your Name'" placeholder="''" type="'text'" output="employeeController.createModel.LastName" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Middle Name-->
+                            <div class="col-lg-12">
+                                <h3>Middle Name *</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'Find Your Name'" placeholder="''" type="'text'" output="employeeController.createModel.MiddleName" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Extension Name-->
+                            <div class="col-lg-12">
+                                <h3>Extension Name *</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'Find Your Name'" placeholder="''" type="'text'" output="employeeController.createModel.ExtensionName" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Gender-->
+                            <!--Marital Status-->
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Gender *</h3>
+                                        <selection1 style="width:100%; height:100px;" items="[{ id: 'Male', description: 'Male', value: 1 }, { id: 'Female', description: 'Female', value: 2 }]" output="employeeController.createModel.Gender" event="employeeController.SelectionOnChange(employeeController.createModel.Gender)"></selection1>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Marital Status *</h3>
+                                        <selection1 style="width:100%; height:100px;" items="[{ id: 'Single', description: 'Single', value: 1 }, { id: 'Married', description: 'Married', value: 2 }]" output="employeeController.createModel.MaritalStatus" event="employeeController.SelectionOnChange(employeeController.createModel.MaritalStatus)"></selection1>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Nationality-->
+                            <div class="col-lg-12" style="margin-top:50px;">
+                                <h3>Nationality</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'Find Your Name'" placeholder="''" type="'text'" output="employeeController.createModel.Nationality" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Religion-->
+                            <div class="col-lg-12">
+                                <h3>Religion</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'Find Your Name'" placeholder="''" type="'text'" output="employeeController.createModel.Religion" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Birthdate-->
+                            <div class="col-lg-12">
+                                <h3>Birth Date *</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'Find Your Name'" placeholder="''" type="'text'" output="employeeController.createModel.Birthday" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Home Address-->
+                            <div class="col-lg-12">
+                                <h3>Home Address *</h3>
+                                <textarea style="width:100%; height:200px;" ng-model="employeeController.createModel.Address"></textarea>
+                            </div>
+                            <!--Contact Person-->
+                            <div class="col-lg-12">
+                                <h3>Contact Person</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'<in case of emergency>'" placeholder="''" type="'text'" output="employeeController.createModel.ContactPerson" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Contact Number-->
+                            <div class="col-lg-12">
+                                <h3>Contact Number</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'<in case of emergency>'" placeholder="''" type="'text'" output="employeeController.createModel.ContactNumber" font-size="'25'"></text-box4>
+                            </div>
+                            <!--Email Address-->
+                            <div class="col-lg-12">
+                                <h3>Email Address</h3>
+                                <text-box4 style="margin-top:25px !important; width:100%; height:60px;" label="'<in case of emergency>'" placeholder="''" type="'text'" output="employeeController.createModel.Email" font-size="'25'"></text-box4>
+                            </div>
+                        </div>
+                    </card-container1>
+                </div>
+                <div class="col-lg-6">
+                    <card-container1 style="margin:auto; width:100% !important;">
+                        <div class="row">
+                            <div class="col-lg-12" style="text-align:center">
+                                <h3>Upload Photo</h3>
+                                <image-uploader1 file="employeeController.createModel.profileImage" default-template="'/Assets/images/no-image.jpg'"></image-uploader1>
+                            </div>
+                            <div class="col-lg-12">
+                                <h3>Job Title *</h3>
+                                <a href="" class="pull-right" ng-click="modalController4.Show()">
+                                    <i class="mdi mdi-content-add"></i>
+                                </a>
+                                <selection1 style="width:100%; height:100px !important;" items="navController.jobTitles" output="employeeController.createModel.Jobtitle.ID" event="employeeController.SelectionOnChange(employeeController.createModel.Jobtitle)"></selection1>
+                            </div>
+                        </div>
+                    </card-container1>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <modal1 title="''" control="modalController" cancel-label="ModalObject.button2" confirm-label="ModalObject.button1" save-func="ModalObject.succeedEvent()" style="width:300px;">
+        <div style="text-align:center; ">
+            <burning-icon1 intervals="2" icon="ModalObject.icon" colors="ModalObject.colors" control="modalController.icon" style="font-size:30px !important;"></burning-icon1>
+            <h3>{{ModalObject.title}}</h3>
+            <p>{{ModalObject.description}}</p>
+        </div>
+    </modal1>
+    <!--Modal for adding Job Title-->
+    <modal4 title="'Add Job Title'" show="modalController4.Show" buttons="modalController4.buttons" style="position:absolute; top:10%; left:35%; z-index:101; width:600px;">
+        <div class="row" style="margin:0px !important">
+            <div class="col-lg-12" style="margin:0px !important">
+                <input type="text" placeholder="Job Title Description" style="font-size:30px; width:100%;" ng-model="jobTitleController.model.Description" />
+                <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="jobTitleController.model.Department.ID" material-select="">
+                    <option value="0" disabled="" style="font-size:15px;" selected>Choose Department</option>
+                    <option ng-repeat="item in departmentController.list" value="{{item.ID}}" class="ng-binding ng-scope">{{item.Name}}</option>
+                </select>
+            </div>
+        </div>
+    </modal4>
+
+
+
+
+</main>
+

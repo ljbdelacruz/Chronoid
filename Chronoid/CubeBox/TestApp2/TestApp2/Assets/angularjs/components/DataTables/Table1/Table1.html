@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>
+            <th ng-repeat="item in header">
+                {{item.label}}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--Interactable Row-->
+        <tr ng-repeat="item in items">
+            <td ng-repeat="col in item " ng-if="$index > 0" style="padding-top:20px;">{{col}}</td>
+            <td>
+                <div class="row">
+                    <div class="col-lg-3" ng-repeat="row in rowOptions" style="width:50px !important; padding: 5px; margin: 0px !important;">
+                        <button2 icon="row.icon" option="row.option" event="row.event(item)" id="item"></button2>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

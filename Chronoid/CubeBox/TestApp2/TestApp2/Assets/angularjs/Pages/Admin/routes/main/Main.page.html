@@ -1,0 +1,37 @@
+﻿<main>
+   <div class="row" style="width:100%;">
+       <div class="col-lg-3">
+               <div class="card" style="text-align:center; cursor:pointer" ng-click="navigate('/Company')">
+                   <div class="card-content  green white-text">
+                       <p class="card-stats-title" style="font-size:20px;"><i class="mdi-2x mdi-social-group-add"></i>Companies</p>
+                       <h4 class="card-stats-number" style="font-size:30px;" ng-if="companyController.list.length <= 0 ? false : true">{{companyController.list.length}}</h4>
+                       <loader1 toggle="loaderController.itemToggle1"></loader1>
+                       <!--<p class="card-stats-compare">
+                           <i class="mdi-hardware-keyboard-arrow-up"></i> 15% <span class="green-text text-lighten-5">from yesterday</span>
+                       </p>-->
+                   </div>
+                   <div class="card-action  green darken-2">
+                       <div id="clients-bar"><canvas style="display: inline-block; width: 290px; height: 25px; vertical-align: top;" width="290" height="25"></canvas></div>
+                   </div>
+               </div>
+       </div>
+       <div class="col-lg-3">
+           <div class="card" style="text-align:center; cursor:pointer" ng-click="navigate('/Users')">
+               <div class="card-content  green white-text">
+                   <p class="card-stats-title" style="font-size:20px;"><i class="mdi-2x mdi-social-group-add"></i>Users</p>
+                   <h4 class="card-stats-number" style="font-size:30px;" ng-if="usersController.list.length <= 0 ? false : true">{{usersController.list.length}}</h4>
+                   <loader1 toggle="loaderController.itemToggle2"></loader1>
+                   <p class="card-stats-compare">
+                       <i class="mdi-hardware-keyboard-arrow-up"></i> 15% <span class="green-text text-lighten-5">from yesterday</span>
+                   </p>
+               </div>
+               <div class="card-action  green darken-2">
+                   <div id="clients-bar"><canvas style="display: inline-block; width: 290px; height: 25px; vertical-align: top;" width="290" height="25"></canvas></div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+
+</main>
+

@@ -1,0 +1,80 @@
+C:\MyWorkSpace\TFS\IndexCare\App.Data\bin\Debug\App.Data.dll.config
+C:\MyWorkSpace\TFS\IndexCare\App.Data\bin\Debug\App.Data.dll
+C:\MyWorkSpace\TFS\IndexCare\App.Data\bin\Debug\App.Data.pdb
+C:\MyWorkSpace\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.dll
+C:\MyWorkSpace\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyWorkSpace\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.xml
+C:\MyWorkSpace\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyWorkSpace\TFS\IndexCare\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\TFS\IndexCare\App.Data\obj\Debug\App.Data.dll
+C:\MyWorkSpace\TFS\IndexCare\App.Data\obj\Debug\App.Data.pdb
+E:\TFS\IndexCare\App.Data\bin\Debug\App.Data.dll.config
+E:\TFS\IndexCare\App.Data\bin\Debug\App.Data.dll
+E:\TFS\IndexCare\App.Data\bin\Debug\App.Data.pdb
+E:\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.dll
+E:\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.xml
+E:\TFS\IndexCare\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\TFS\IndexCare\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+E:\TFS\IndexCare\App.Data\obj\Debug\App.Data.dll
+E:\TFS\IndexCare\App.Data\obj\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\bin\Debug\App.Data.dll.config
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\bin\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\bin\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\bin\Debug\EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\bin\Debug\EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\obj\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp\App.Data\obj\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\bin\Debug\App.Data.dll.config
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\bin\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\bin\Debug\App.Data.pdb
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\bin\Debug\EntityFramework.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\bin\Debug\EntityFramework.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\obj\Debug\App.Data.dll
+C:\Delacruz\Programming\ASP.NET CORE\ASPNET projects\TestApp\TestApp2\App.Data\obj\Debug\App.Data.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\bin\Debug\App.Data.dll.config
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\bin\Debug\App.Data.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\bin\Debug\App.Data.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\bin\Debug\EntityFramework.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\bin\Debug\EntityFramework.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\obj\Debug\App.Data.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\App.Data\obj\Debug\App.Data.pdb
+C:\Analog\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.dll.config
+C:\Analog\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.dll
+C:\Analog\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.pdb
+C:\Analog\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.dll
+C:\Analog\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Analog\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.xml
+C:\Analog\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Analog\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\Analog\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.dll
+C:\Analog\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.dll.config
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.pdb
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.dll
+C:\Analog\TFS\Chronoid\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.dll.config
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\App.Data.pdb
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.csprojResolveAssemblyReference.cache
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.dll
+C:\Analog\UpdatedCubeBoxV2\Chronoid\CubeBox\TestApp2\App.Data\obj\Debug\App.Data.pdb

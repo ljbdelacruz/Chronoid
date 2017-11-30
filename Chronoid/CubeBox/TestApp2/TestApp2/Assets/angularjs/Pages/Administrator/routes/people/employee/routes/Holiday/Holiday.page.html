@@ -1,0 +1,38 @@
+﻿<main >
+
+    <div class="row">
+        <div class="col-lg-1">
+            <common-people-navbar items="navController.optionButtons"></common-people-navbar>
+        </div>
+        <div class="col-lg-11">
+            <h1>Holiday Page</h1>
+            <div ng-if="navController.view == 0 ? true : false">
+                <input type="text" ng-model="holidayController.model.Description" placeholder="Holiday Name" />
+                <input type="text" ng-model="holidayController.model.StartDate" placeholder="From" />
+                <input type="text" ng-model="holidayController.model.EndDate" placeholder="Until" />
+                <button ng-click="holidayController.Insert()">Save Holiday</button>
+                <button ng-click="navController.SwitchView(1)">Holiday List</button>
+            </div>
+            <div ng-if="navController.view == 1 ? true : false">
+                <button ng-click="navController.SwitchView(0)">Back</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Description</td>
+                            <td>From</td>
+                            <td>Until</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in holidayController.list">
+                            <td>{{item.Description}}</td>
+                            <td>{{item.StartDate}}</td>
+                            <td>{{item.EndDate}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+

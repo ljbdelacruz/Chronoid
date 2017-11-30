@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_materializeLayoutSuperAdmin.cshtml";
+}
+
+
+<script src="~/Assets/angularjs/Pages/Admin/routes/main/module.js"></script>
+<script src="~/Assets/angularjs/Pages/Admin/routes/main/MainCtrl.page.js"></script>
+    <script src="~/Assets/angularjs/Pages/Admin/routes/company/module.js"></script>
+    <!--Common-->
+    @*<script src="~/Assets/angularjs/Pages/Admin/routes/common/navbar/navbar.common.js"></script>*@
+
+    <script src="~/Assets/angularjs/Pages/Admin/routes/company/companyCtrl.page.js"></script>
+    <script src="~/Assets/angularjs/Pages/Admin/routes/users/module.js"></script>
+    <script src="~/Assets/angularjs/Pages/Admin/routes/users/usersCtrl.page.js"></script>
+
+<script src="~/Assets/angularjs/Pages/Admin/app.js"></script>
+<script src="~/Assets/angularjs/Pages/Admin/appCtrl.js"></script>
+<main>
+    <div ng-controller="SuperAdminAppCtrl">
+        <div class="row">
+            <div class="col-lg-1">
+                @*<super-navbar></super-navbar>*@
+            </div>
+            <div class="col-lg-11">
+                <div ng-view style="width:100%;"></div>
+            </div>
+        </div>
+    </div>
+</main>

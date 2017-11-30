@@ -1,0 +1,68 @@
+﻿<main>
+    <div class="col-lg-6">
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center; margin-bottom:30px;">
+                <a href="#/Employee/Schedule">Back</a>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <input type="text" ng-model="filterController.SearchText" placeholder="Search Shift" style="font-size:20px;"/>
+                    </div>
+                    <div class="col-lg-12">
+                        <table>
+                            <thead style="font-size:20px;">
+                                <tr>
+                                    <td>Shift Name</td>
+                                    <td>Time In</td>
+                                    <td>Time Out</td>
+                                    <td>Work Hours</td>
+                                    <td>Work Days</td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" ng-model="shiftController.model.Name" placeholder="Shift Name" style="font-size:20px;"/>
+                                    </td>
+                                    <td><input type="text" ng-model="shiftController.model.TimeIn" placeholder="Time In" style="font-size:20px;"/></td>
+                                    <td><input type="text" ng-model="shiftController.model.TimeOut" placeholder="Time Out" style="font-size:20px;"/></td>
+                                    <td><input type="text" ng-model="shiftController.model.TotalWorkedHours" placeholder="Work Hours" style="font-size:20px;"/></td>
+                                    <td></td>
+                                    <td><input type="button" value="ADD" style="font-size:20px;" ng-click="shiftController.Insert()"/></td>
+                                </tr>
+                                <tr ng-repeat="item in shiftController.list | filter: filterController.SearchText">
+                                    <td>
+                                        <span style="font-size:20px;" ng-if="!item.isEdit">{{item.Name}}</span>
+                                        <input type="text" ng-model="item.Name" style="font-size:20px;" ng-if="item.isEdit"/>
+                                    </td>
+                                    <td>
+                                        <span style="font-size:20px;" ng-if="!item.isEdit">{{item.TimeIn}}</span>
+                                        <input type="text" ng-model="item.TimeIn" style="font-size:20px;" ng-if="item.isEdit"/>
+                                    </td>
+                                    <td>
+                                        <span style="font-size:20px;" ng-if="!item.isEdit">{{item.TimeOut}}</span>
+                                        <input type="text" ng-model="item.TimeOut" style="font-size:20px;" ng-if="item.isEdit"/>
+                                    </td>
+                                    <td>
+                                        <span style="font-size:20px;" ng-if="!item.isEdit">{{item.TotalWorkedHours}}</span>
+                                        <input type="text" ng-model="item.TotalWorkedHours" style="font-size:20px;" ng-if="item.isEdit"/>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <input type="button" value="Save" style="font-size:20px;" ng-click="shiftController.OnClick(item,1,$index)" ng-if="item.isEdit"/>
+                                        <input type="button" value="Delete" style="font-size:20px;" ng-click="shiftController.OnClick(item,2,$index)" ng-if="item.isEdit" />
+                                        <input type="button" value="Cancel" style="font-size:20px;" ng-click="shiftController.OnClick(item)" ng-if="item.isEdit"/>
+                                        <input type="button" value="Edit" style="font-size:20px;" ng-click="shiftController.OnClick(item)" ng-if="!item.isEdit"/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--<time-picker1 ></time-picker1>
+                <time-picker1></time-picker1>-->
+            </div>
+        </div>
+    </div>
+
+</main>
+

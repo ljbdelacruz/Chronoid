@@ -1,0 +1,92 @@
+﻿<main >
+    <div class="row">
+        <div class="col-lg-1">
+            <common-people-navbar items="navController.optionButtons"></common-people-navbar>
+        </div>
+        <div class="col-lg-11">
+            <a href="#/Employee/Schedule/AddShift">Add Shift</a>
+            <a href="#/Employee/Schedule/GroupSchedule">Group Schedule</a>
+
+            <div class="row" style="margin-top:30px;">
+                <div class="col-lg-12">
+                    <input type="text" placeholder="From Date" style="font-size:20px;" ng-model="filterController.dateFilter.fromDate" />
+                    <input type="text" placeholder="To Date" style="font-size:20px;" ng-model="filterController.dateFilter.toDate" />
+                    <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="employeeController.model.ID" ng-change="filterController.user.OnChange(employeeController.model.ID)" material-select="">
+                        <option value="0" disabled="" style="font-size:15px;" selected>Choose Users</option>
+                        <option value="null" style="font-size:15px;">ALL</option>
+                        <option ng-repeat="item in employeeController.lists" value="{{item.ID}}" class="ng-binding ng-scope">{{item.FirstName}} {{item.LastName}}</option>
+                    </select>
+                    <input type="button" value="FILTER" ng-click="filterController.Filter()"/>
+                </div>
+                <div class="col-lg-12">
+                    <table class="hoverable">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Employee</th>
+                                <th>Shift</th>
+                                <th>Actual Login Time</th>
+                                <th>Actual Logout Time</th>
+                                <th>Total Work Hours</th>
+                                <th>Total Break Time</th>
+                                <th>Productive Hours</th>
+                                <th>Status</th>
+                                <th>Remarks</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="sched in scheduleController.schedules">
+                                <td>{{sched.AttendanceDate}}</td>
+                                <td>
+                                    <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="sched.User.ID" ng-change="employeeController.OnChange(sched.User.ID)" material-select="">
+                                        <option value="0" disabled="" style="font-size:15px;" selected>Choose Users</option>
+                                        <option ng-repeat="item in employeeController.lists" value="{{item.ID}}" class="ng-binding ng-scope" ng-selected="sched.User.ID == item.ID ? true : false">{{item.FirstName}} {{item.LastName}}</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="sched.Shift.ID" ng-change="shiftController.OnChange(sched.Shift.ID)" material-select="">
+                                        <option value="0" disabled="" style="font-size:15px;" selected>Select Shift</option>
+                                        <option ng-repeat="item in shiftController.list" value="{{item.ID}}" class="ng-binding ng-scope" ng-selected="sched.Shift.ID == item.ID ? true : false">{{item.Name}} {{item.TimeIn}}-{{item.TimeOut}}</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" ng-model="sched.actualLoginTime" />
+                                </td>
+                                <td>
+                                    <input type="text" ng-model="sched.actualLogoutTime" />
+                                </td>
+                                <td>
+                                    <input type="text" ng-model="sched.TotalWorkHours" />
+                                </td>
+                                <td>
+                                    <input type="text" ng-model="sched.TotalBreakTime" />
+                                </td>
+                                <td>
+                                    <input type="text" ng-model="sched.ProductiveHours"/>
+                                </td>
+                                <td>
+                                    <select style="width:100%; height:100%; font-size:20px;" class="browser-default ng-pristine ng-valid" ng-model="sched.Status.ID" material-select="">
+                                        <option value="0" disabled="" style="font-size:15px;" selected>Select Status</option>
+                                        <option ng-repeat="item in attendanceStatusController.list" value="{{item.ID}}" class="ng-binding ng-scope" ng-selected="item.ID == sched.Status.ID ? true : false">{{item.Description}}</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" ng-model="sched.Remarks" />
+                                </td>
+                                <td>
+                                    <button ng-click="scheduleController.Update(sched)">Save Changes</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> 
+                <!--end table-->
+                <modal1 title="'View Logs'" style="width:500px;">
+                </modal1>
+
+            </div>
+        </div>
+    </div>
+</main>
+

@@ -1,0 +1,11 @@
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\obj\Debug\main.service.csprojResolveAssemblyReference.cache
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\Service.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\Service.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\App.Data.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\main.repository.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\EntityFramework.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\App.Data.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\main.repository.pdb
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\bin\Debug\EntityFramework.xml
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\obj\Debug\Service.dll
+C:\Analog\ThinkUpTieBox\V2\BaseProject\TestApp2\main.service\obj\Debug\Service.pdb
